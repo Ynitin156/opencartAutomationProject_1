@@ -5,7 +5,7 @@ import java.time.Duration;
 
 public class Prod_Test extends BaseTest
 {
-	@Test
+	@Test(groups = {"smoke"})
 	public void Prod_Test() throws InterruptedException
 	{
 		//Login
@@ -24,32 +24,16 @@ public class Prod_Test extends BaseTest
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		homepage.imageclick1();
 		
-//		Thread.sleep(3000);
-//		homepage.Buttonclo();
-//		Thread.sleep(3000);
-//		homepage.imageclick2();
-		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		homepage.switchtoiframe();
 		
-		
-		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		homepage.DropDown();
-		
-//		Thread.sleep(3000);
-//		homepage.colordress();
-		
+				
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		homepage.addtocart();
 		
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//		homepage.closewindow();
-		
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-//		Thread.sleep(9000);
-//		homepage.processtocheckout();
-		
+
 		
 				
 	}

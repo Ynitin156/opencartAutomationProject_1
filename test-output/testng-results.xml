@@ -2,20 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-30T23:39:19 IST" name="Suite" finished-at="2025-08-30T23:39:32 IST" duration-ms="12897">
+  <suite started-at="2025-08-31T11:36:25 IST" name="Suite" finished-at="2025-08-31T11:36:37 IST" duration-ms="11861">
     <groups>
+      <group name="smoke">
+        <method signature="Prod_Test.Prod_Test()[pri:0, instance:Prod_Test@609e8838]" name="Prod_Test" class="Prod_Test"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-08-30T23:39:19 IST" name="Test" finished-at="2025-08-30T23:39:32 IST" duration-ms="12897">
+    <test started-at="2025-08-31T11:36:25 IST" name="Test" finished-at="2025-08-31T11:36:37 IST" duration-ms="11861">
       <class name="Prod_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Prod_Test@609e8838]" started-at="2025-08-30T23:39:19 IST" name="setup" finished-at="2025-08-30T23:39:26 IST" duration-ms="6389" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Prod_Test@609e8838]" started-at="2025-08-31T11:36:25 IST" name="setup" finished-at="2025-08-31T11:36:30 IST" duration-ms="4856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Prod_Test()[pri:0, instance:Prod_Test@609e8838]" started-at="2025-08-30T23:39:26 IST" name="Prod_Test" finished-at="2025-08-30T23:39:32 IST" duration-ms="6194" status="PASS">
+        <test-method signature="Prod_Test()[pri:0, instance:Prod_Test@609e8838]" started-at="2025-08-31T11:36:30 IST" name="Prod_Test" finished-at="2025-08-31T11:36:36 IST" duration-ms="6625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Prod_Test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Prod_Test@609e8838]" started-at="2025-08-30T23:39:32 IST" name="teardown" finished-at="2025-08-30T23:39:32 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Prod_Test@609e8838]" started-at="2025-08-31T11:36:36 IST" name="teardown" finished-at="2025-08-31T11:36:37 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -17,7 +17,7 @@ public class BaseTest
   public void setup() throws IOException
   {
 //	  WebDriverManager.chromedriver().setup();
-	//  driver = new ChromeDriver();
+//	  driver = new ChromeDriver();
 //	  driver.manage().window().maximize();
 //	  driver.get("http://www.automationpractice.pl/index.php?controller=authentication&back=history");
 	  
